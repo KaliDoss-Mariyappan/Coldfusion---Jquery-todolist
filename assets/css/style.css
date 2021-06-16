@@ -1,0 +1,70 @@
+body{
+    background: #2a2750;
+}
+h3{
+    text-align: center;
+    color: #dcff89;
+}
+h2{
+    color: #62cc8b;
+}
+.fa-plus{
+    float: right;
+}
+.container{
+    width: 400px;
+    margin: 100px auto;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+li{
+    line-height: 40px;
+    color: rgb(230,230,12);
+}
+li:nth-child(2n){
+    background: rgba(123,123,123,0.5);
+}
+.left{
+    background: #e74c3c;
+    height: 40px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    width: 0;
+    opacity: 0;
+    transition: 0.2s linear;
+}
+.right{
+    background: #e74c3c;
+    height: 40px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    width: 0;
+    opacity: 0;
+    transition: 0.2s linear;
+    position: absolute;
+    right: 0;
+}
+li:hover span{
+    width: 35px;
+    opacity: 1;
+}
+.todoInput{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 10px;
+    outline: none;
+}
+.completed{
+    text-decoration: line-through;
+    color: #232323;
+}
+.editInput{
+    width: 100%;
+    outline: none;
+}
